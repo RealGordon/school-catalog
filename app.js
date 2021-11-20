@@ -120,3 +120,7 @@ class SchoolCatalog{
      else console.log("wrong school catalogue")
     }
 }
+
+const primaryCatalog=new SchoolCatalog("primary");
+const secondaryCatalog=new SchoolCatalog("middle");
+const highCatalog=new SchoolCatalog("high");
